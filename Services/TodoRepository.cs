@@ -3,7 +3,7 @@ using Todo.Api.Models;
 
 namespace Todo.Api.Services
 {
-    public class TodoRepository
+    public class TodoRepository : ITodoRepository
     {
         private List<TodoItem> _items = new List<TodoItem>()
         {
